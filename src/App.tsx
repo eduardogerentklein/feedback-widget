@@ -1,9 +1,5 @@
-import { Widget } from "./components"
+import { Widget } from "components"
 
 export const App = () => {
-  return (
-    <>
-     <Widget />
-    </>
-  )
+  return <Widget />
 }

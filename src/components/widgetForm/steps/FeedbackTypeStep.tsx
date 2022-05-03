@@ -1,6 +1,5 @@
-import { FeedbackType } from '../WidgetForm'
-import { feedbackTypes } from '../../../utils'
-import { CloseButton } from '../../closeButton';
+import { FeedbackType, CloseButton } from 'components'
+import { feedbackTypes } from 'utils'
 
 interface FeedbackTypeStepProps {
   onFeedbackTypeChanged: (type: FeedbackType) => void;

@@ -1,9 +1,8 @@
 import { FormEvent, useState } from "react";
-import { CloseButton } from "../../closeButton"
-import { FeedbackType } from "../WidgetForm";
-import { feedbackTypes } from '../../../utils'
 import { ArrowLeft } from "phosphor-react";
-import { ScreenshotButton } from "../ScreenshotButton";
+
+import { FeedbackType, ScreenshotButton, CloseButton } from "components";
+import { feedbackTypes } from 'utils'
 
 interface FeedbackContentStepProps {
   feedbackType: FeedbackType;

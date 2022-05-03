@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { feedbackTypes } from '../../utils'
-import { FeedbackTypeStep, FeedbackContentStep, FeedbackSuccessStep } from './steps'
+import { feedbackTypes } from 'utils'
+import { FeedbackTypeStep, FeedbackContentStep, FeedbackSuccessStep } from 'components'
 
 export type FeedbackType = keyof typeof feedbackTypes
 
