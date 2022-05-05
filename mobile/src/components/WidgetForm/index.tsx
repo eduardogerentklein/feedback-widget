@@ -33,7 +33,7 @@ export function WidgetForm({
 }: WidgetFormProps) {
   const [screenshot, setScreenshot] = useState<string|null>(null)
   const [isSendingFeedback, setIsSendingFeedback] = useState<boolean>(false)
-  const [comment, setComment] = useState<string>('Testando123')
+  const [comment, setComment] = useState<string>('')
 
   const feedbackTypeInfo = feedbackTypes[feedbackType]
 
