@@ -35,8 +35,9 @@ export class SubmitFeedbackService {
       subject: 'New feedback',
       body: [
         `<div style="font-family: sans-serif; font-size: 1rem; color: #111;">`,
-        `<h4>Feedback type: ${type}</h4>`,
+        `<p>Feedback type: ${type}</p>`,
         `<p>Comment: ${comment}</p>`,
+        screenshot ? `<img src="${screenshot}" alt="Feedback screenshot" />` : null,
         `</div>`,
       ].join('\n')
     })
