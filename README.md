@@ -15,11 +15,11 @@ This is a monorepo project developed in the [NLW #08 Mission - Return](https://w
 
 
 ## ✨ Technologies
-### [🌐 WEB](./web/README.md)
+### [WEB 🌐](./web/README.md)
 
-### [🖥 Server](./server/README.md)
+### [Server 🖥](./server/README.md)
 
-### [📱 Mobile](./mobile/README.md)
+### [Mobile 📱](./mobile/README.md)
 
 ## 🛠 Features 
 
@@ -47,7 +47,7 @@ All tests are within their context in the __tests__ folder.
 
 The chosen deployment platform for the web project was [Vercel](https://vercel.com/) (Static Deploy and JAMstack, global CDN) and [Railway](https://railway.app/) for the server and PostgreSQL instance (Railway is an infrastructure platform where you can provision infrastructure, develop with that infrastructure locally, and then deploy to the cloud.).
 
-## 🦮👩‍🦽 Accessibility (a11y) 
+## ♿ Accessibility (a11y) 
 Both application (web and mobile) is designed to be fully accessible to users. Navigation can be done entirely through the keyboard and also by screen readers.
 
 
