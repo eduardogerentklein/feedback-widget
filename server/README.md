@@ -55,13 +55,13 @@ The endpoints are mapped in <a href="./src/routes/Routes.ts">Routes.ts</a> folde
 ### Available routes:
 
 `[POST] /feedbacks`
-```json
-Body
 
+**Request body**
+```json
 { 
-  type,       // String  [Required]
-  comment,    // String  [Required]
-  screenshot  // String? [Optional]
+  type:       "String  [Required]",
+  comment:    "String  [Required]",
+  screenshot: "String? [Optional]"
 }
 ```
 
