@@ -22,14 +22,6 @@
 -   [ ] [html2canvas](https://html2canvas.hertzen.com/) - Screenshots with JavaScript.
 -   [ ] [phosphor-react](https://phosphoricons.com/) - Flexible icon family for interfaces, diagrams, and presentations.
 
-## 🚀 Deploy
-
-The chosen deployment platform for this project was [Vercel](https://vercel.com/) (Static Deploy and JAMstack, global CDN).
-
-## 🔖 Layout
-
-You can take a look at the project layout through [this link](https://www.figma.com/community/file/1102912516166573468), just select the option page: "Protótipo - Desktop". You must have an account on [Figma](http://figma.com/) website to get access.
-
 ## 🐱‍💻 Environment variables
 
 After cloning the repository, you should set the following environment variables to run this project. [(Expose these environment variables to __Vite__ by prefixing with "VITE_")](https://vitejs.dev/guide/env-and-mode.html#env-files)
@@ -45,13 +37,13 @@ Open your preferred terminal in the root directory of your project and run the f
 cd web
 ```
 
-Then, instal the dependencies using yarn or npm Depending on your package manager (yarn or npm)
+Then, install the dependencies using yarn or npm Depending on your package manager (yarn or npm)
 ```cl
-yarn # For yarn users
+yarn // For yarn users
 
 OR
 
-npm install # For npm users
+npm install // For npm users
 ```
 
 After installing the dependencies, it might be possible to run the command:
@@ -61,3 +53,11 @@ yarn dev
 ```
 
 So now you can access the project by your browser typing [http://localhost:3000/](http://localhost:3000)
+
+## 🚀 Deploy
+
+The chosen deployment platform for this project was [Vercel](https://vercel.com/) (Static Deploy and JAMstack, global CDN).
+
+## 🔖 Layout
+
+You can take a look at the project layout through [this link](https://www.figma.com/community/file/1102912516166573468), just select the option page: "Protótipo - Desktop".<br />You must have an account on [Figma](http://figma.com/) website to get access.

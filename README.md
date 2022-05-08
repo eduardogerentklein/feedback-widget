@@ -15,11 +15,11 @@ This is a monorepo project developed in the [NLW #08 Mission - Return](https://w
 
 
 ## ✨ Technologies
-### [WEB 🌐](./web/README.md)
+### [WEB 🌐](./web)
 
-### [Server 🖥](./server/README.md)
+### [Server 🖥](./server)
 
-### [Mobile 📱](./mobile/README.md)
+### [Mobile 📱](./mobile)
 
 ## 🛠 Features 
 
@@ -40,7 +40,7 @@ This is a monorepo project developed in the [NLW #08 Mission - Return](https://w
 ## 🧪 Tests
 
 The application uses unit tests to test the services.
-All tests are within their context in the __tests__ folder.
+All tests are within their context in the \_\___tests__\_\_ folder.
 
 
 ## 🚀 Deploy
