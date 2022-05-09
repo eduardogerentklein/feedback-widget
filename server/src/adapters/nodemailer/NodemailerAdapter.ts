@@ -1,5 +1,5 @@
 import nodemailer from 'nodemailer'
-import { MailAdapter, SendMailData } from "../MailAdapter";
+import { MailAdapter, SendMailData } from 'adapters/MailAdapter'
 
 const transport = nodemailer.createTransport({
   host: 'smtp.mailtrap.io',
@@ -8,7 +8,7 @@ const transport = nodemailer.createTransport({
     user: process.env.MAILTRAP_USER,
     pass: process.env.MAILTRAP_PASS
   }
-});
+})
 
 export class NodemailerAdapter implements MailAdapter {
   sendMail = async ({ subject, body }: SendMailData) => {

@@ -1,4 +1,4 @@
-import { SubmitFeedbackService } from '../SubmitFeedbackService'
+import { SubmitFeedbackService } from 'services/SubmitFeedbackService'
 
 const createFeedbackSpy = jest.fn()
 const sendMailSpy = jest.fn()

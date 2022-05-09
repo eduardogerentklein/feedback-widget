@@ -1,10 +1,10 @@
-import { MailAdapter } from "../adapters/MailAdapter";
-import { FeedbacksRepository } from "../repositories/FeedbacksRepository";
+import { MailAdapter } from 'adapters/MailAdapter'
+import { FeedbacksRepository } from 'repositories/FeedbacksRepository'
 
 interface SubmitFeedbackServiceRequest {
-  type: string;
-  comment: string;
-  screenshot?: string;
+  type: string
+  comment: string
+  screenshot?: string
 }
 
 export class SubmitFeedbackService {
