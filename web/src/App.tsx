@@ -44,7 +44,7 @@ export const App = () => {
               <Card 
                 key={feedback.comment} 
                 type='flat' 
-                className='flex gap-1 items-start p-5'>
+                className='flex grow gap-1 items-start p-5'>
                 <span className="text-xl leading-6 flex gap-2">
                   <img 
                     src={feedbackTypeInfo.image.source} 
@@ -53,25 +53,15 @@ export const App = () => {
                   {feedbackTypeInfo.title}
                 </span>
                 <hr />
-                <span className="line-clamp-7 max-h-48">{feedback.comment}</span>
+                <span className="line-clamp-7 max-h-48">
+                  {feedback.comment}
+                </span>
                 <button 
                   type="button" 
-                  className="absolute bottom-4 flex items-center justify-center rounded-lg px-3 w-[19.25rem] h-10 bg-brand-500 hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 text-white transition-colors gap-2">
+                  className="absolute bottom-4 flex items-center justify-center rounded-lg px-3 w-[calc(100%-2.5rem)] h-10 bg-brand-500 hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 text-white transition-colors gap-2">
                   <Camera className="h-6 w-6" /> 
                   <span>View screenshot</span>
                 </button>
-                {/* {
-                  !! feedback && 
-                  <>
-                    <hr className="my-2" />
-                    <div className="flex justify-center w-full">
-                      <img 
-                      src={feedback?.screenshot} 
-                      alt='Screenshot image'
-                      className="w-48 h-20" />
-                    </div>
-                  </>
-                } */}
               </Card>
             )
           })
