@@ -5,3 +5,35 @@
 body {
   @apply bg-[#09090A] text-zinc-100;
 }
+
+hr {
+  @apply w-full h-[1px] border-none bg-zinc-700;
+}
+
+.card {
+  @apply backdrop-blur-[5px] bg-[#27272a4d] shadow-[0_4px_30px_rgba(0,0,0,0.1)] rounded-lg flex flex-col border-2 border-zinc-800 border-transparent;
+}
+
+.card-full {
+ @apply w-[22rem] md:w-full h-[7.75rem];
+}
+
+.card-flat {
+  @apply w-[22rem] h-[19.37rem];
+}
+
+::selection {
+  @apply bg-brand-300 text-zinc-100;
+}
+
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-brand-300;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-900;
+}
