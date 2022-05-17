@@ -4,7 +4,8 @@ import { feedbackTypes, Feedbacks } from 'utils'
 const feedbacks: Feedbacks[] = [
   {
     type: 'BUG',
-    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus mauris massa. Cras quis porta ligula. Etiam pharetra pharetra feugiat. In sollicitudin dapibus consequat. Sed ullamcorper aliquet viverra. Maecenas vel erat viverra, viverra dolor eu, vestibulum ex. Sed in enim arcu. Nunc facilisis elit id vestibulum volutpat.'
+    comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus mauris massa. Cras quis porta ligula. Etiam pharetra pharetra feugiat. In sollicitudin dapibus consequat. Sed ullamcorper aliquet viverra. Maecenas vel erat viverra, viverra dolor eu, vestibulum ex. Sed in enim arcu. Nunc facilisis elit id vestibulum volutpat.',
+    screenshot: 'test'
   },
   {
     type: 'IDEA',
@@ -13,6 +14,7 @@ const feedbacks: Feedbacks[] = [
   {
     type: 'OTHER',
     comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus mauris massa. Cras quis porta ligula. Etiam pharetra pharetra feugiat. In sollicitudin dapibus consequat. Sed ullamcorper aliquet viverra. Maecenas vels erat viverra, viverra dolor eu, vestibulum ex. Sed in enim arcu. Nunc facilisis elit id vestibulum volutpat.',
+    screenshot: 'test'
   },
   {
     type: 'BUG',
@@ -21,6 +23,7 @@ const feedbacks: Feedbacks[] = [
   {
     type: 'IDEA',
     comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus mauris massa. Cras quis porta ligula. Etiam pharetra pharetra feugiat. In sollicitudin dapibus consequat. Sed ullamcorper aliquet viverra. Maecenas vel erat viverra, viverra dolor eu, vestibulum ex. Sed in enim arcu. ',
+    screenshot: 'test'
   }
 ]
 
