@@ -28,7 +28,7 @@ After cloning the repository, you should set the following environment variables
 
 Create an __.env__ or __.env.local__ file with the following keys:
 
-- VITE_API_URL=<<span style="color: #238636;">your_webapp_url</span>>
+- VITE_API_URL=<<span style="color: #238636;">your_api_url</span>>
 
 ## Executing locally
 
