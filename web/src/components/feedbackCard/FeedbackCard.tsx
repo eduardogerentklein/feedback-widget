@@ -1,6 +1,7 @@
-import { Camera } from 'phosphor-react'
+import { Camera, SmileySad } from 'phosphor-react'
+import { Popover } from '@headlessui/react'
 
-import { Card } from 'components'
+import { Card, Modal } from 'components'
 import { Feedbacks } from 'utils'
 
 interface FeedbackCardProps {
@@ -37,12 +38,32 @@ export const FeedbackCard = ({
       <span className="line-clamp-7 h-48 md:h-0 max-h-48">
         {feedback.comment}
       </span>
-      <button 
-        type="button" 
-        className="relative md:absolute md:bottom-4 flex items-center justify-center rounded-lg px-3 w-full md:w-[calc(100%-2.5rem)] h-10 bg-brand-500 hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 text-white transition-colors gap-2">
-        <Camera className="h-6 w-6" /> 
-        <span>View screenshot</span>
-      </button>
+      <Popover className="w-full">
+        <Popover.Panel>
+          <Modal>
+            <img 
+              src={feedbackTypeInfo.image?.source} 
+              alt={feedbackTypeInfo.image?.alt} 
+              className="w-full h-full" />
+          </Modal>
+        </Popover.Panel>
+        <Popover.Button 
+          disabled={!feedback.screenshot}
+          className='relative md:absolute md:bottom-4 flex items-center justify-center rounded-lg px-3 w-full md:w-[calc(100%-2.5rem)] h-10 bg-brand-500 hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 disabled:opacity-50 disabled:hover:bg-brand-500 text-white transition-colors gap-2 group'>
+            {
+              feedback.screenshot ?
+              <>
+                <Camera className='h-6 w-6' /> 
+                <span>View screenshot</span>
+              </> :
+              <>
+                <SmileySad className='h-6 w-6' />
+                <span>Screenshot was not taken</span>
+              </>
+            }
+          
+        </Popover.Button>
+      </Popover>
     </Card>
   )
 }
