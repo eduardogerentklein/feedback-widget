@@ -5,7 +5,7 @@ import { routes } from 'routes'
 const app = express()
 
 const SERVER_PORT = process.env.PORT || 3333
-const payloadLimit = { limit: '50mb', extended: true }
+const payloadLimit = { limit: '1mb', extended: true }
 
 app.use(cors())
 app.use(express.json(payloadLimit))
