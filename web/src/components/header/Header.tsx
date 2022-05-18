@@ -7,11 +7,13 @@ export const Header = () => {
   return (
     <nav className="px-4 md:px-40 sticky top-0 z-10 flex justify-between items-center w-full h-[4.5rem] bg-surface-secondary">
       <div className="flex items-center gap-3">
-        <img 
+        <img
+          loading='lazy' 
           src={faviconUrl} 
           alt="Logo image"
           className='h-7 w-7' />
-        <img 
+        <img
+          loading='lazy' 
           src={logoImageUrl} 
           alt="Logo image"
           className='h-10 w-40' />

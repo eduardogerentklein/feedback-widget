@@ -15,7 +15,10 @@ export const FeedbackSuccessStep = ({
       </header>
 
       <div className="flex flex-col items-center py-10 w-[304px]">
-        <img src={successImageUrl} alt='Feedback sent!' />
+        <img 
+          loading='lazy'
+          src={successImageUrl}
+          alt='Feedback sent!' />
 
         <span className="text-xl mt-2">Thank you for your feedback!</span>
 

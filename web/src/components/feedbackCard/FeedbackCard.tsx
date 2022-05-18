@@ -29,6 +29,7 @@ export const FeedbackCard = ({
       className='flex grow gap-1 items-start p-5'>
       <span className="text-xl leading-6 flex gap-2">
         <img 
+          loading='lazy'
           src={feedbackTypeInfo.image?.source} 
           alt={feedbackTypeInfo.image?.alt} 
           className="w-6 h-6" />
@@ -42,6 +43,7 @@ export const FeedbackCard = ({
         <Popover.Panel>
           <Modal>
             <img 
+              loading='lazy'
               src={feedbackTypeInfo.image?.source} 
               alt={feedbackTypeInfo.image?.alt} 
               className="w-full h-full" />
