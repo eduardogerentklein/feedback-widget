@@ -46,7 +46,7 @@ export const App = () => {
       <main className="px-4 py-12 md:px-40 flex flex-col md:flex-row w-full">
         <aside className="px-4 pb-4 md:px-0 md:pr-4">
           <section className="flex">
-            <div className="flex p-1 gap-3 md:gap-2 md:flex-col justify-start items-center rounded-full bg-[#27272a4d]">
+            <div className="flex p-1 gap-3 md:gap-2 md:flex-col justify-start items-center rounded-full bg-[#27272a4d] group">
               <Filter onFilterChanged={handleFilterFeedbacks} />
             </div>
           </section>
