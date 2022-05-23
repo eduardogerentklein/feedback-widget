@@ -1,6 +1,7 @@
 export * from './card'
 export * from './closeButton'
 export * from './feedbackCard'
+export * from './filter'
 export * from './header'
 export * from './loading'
 export * from './modal'
