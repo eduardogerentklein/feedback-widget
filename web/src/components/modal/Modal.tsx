@@ -16,8 +16,8 @@ const isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
 
 const modalClass = isSafari  
   ? 'modal-viewer my-[5rem] md:my-auto w-[100vw] md:w-full h-[100vh] md:h-full' 
-  : 'modal-viewer h-[19.1rem] w-[21.75rem]'
-  
+  : 'modal-viewer h-[19.1rem] md:h-full w-[21.75rem] md:w-full'
+
 export const Modal = ({ children }: ModalProps) => {
   return (
     <div className={modalClass}>
