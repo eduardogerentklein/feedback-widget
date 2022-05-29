@@ -15,7 +15,7 @@ hr {
 }
 
 .modal-viewer {
-  @apply overflow-y-auto overflow-x-hidden relative md:fixed z-50 top-0 right-0 left-0 md:inset-0 w-[21.75rem] md:w-full h-[19.1rem] md:h-full justify-center items-center flex bg-surface-secondary rounded-lg;
+  @apply overflow-y-auto overflow-x-hidden fixed inset-0 z-50 justify-center items-center flex bg-surface-secondary rounded-lg;
 }
 
 .card-full {
